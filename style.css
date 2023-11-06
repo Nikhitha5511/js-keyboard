@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 250px auto;
+    padding: 20px;
+    background-color: #69dbd7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:black;
+
+   
+}
+.container p{
+    font-size:18px;
+    font-weight: bold;
+
+}
+.container h2{
+    font-size:24px;
+    font-weight:bold;
+    color:rgb(196, 85, 73);
+}
+h1 {
+    color:rgb(196, 85, 73);
+    margin-top:50px;
+}
+
+.key-display {
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+span {
+    font-weight: bold;
+    color: #0078d4;
+}
+@keyframes example {
+
+    0%  { transform: translate(0, 0);
+        color:rgb(196, 85, 73);
+       }
+    25% { transform: translate(100px, 0);
+        color:green;
+    }
+    50% { transform: translate(100px, 140px);
+        color:rgb(158, 158, 218);
+    }
+    75% { transform: translate(0, 140px);
+        color:pink;
+    }
+    100%{ transform: translate(-140px, 0);
+        color:rgb(196, 85, 73);
+    }
+}
+
+ h1{
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease;
+    transform:translateX(-130px);
+
+ } 
+  
+ @keyframes example2 {
+
+    0%  { 
+        color:rgb(196, 85, 73);
+       }
+    25% { 
+        color:green;
+    }
+    50% { 
+        color:rgb(158, 158, 218);
+    }
+    75% { 
+        color:#0078d4;
+    }
+    100%{ 
+        color:rgb(196, 85, 73);
+    }
+}
+
+ h2{
+    animation-name:example2;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease;
+    
+
+ } 
+  
